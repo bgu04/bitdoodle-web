@@ -36,7 +36,7 @@ const NBAMoney = () => {
                     <Col sm={12}>
                         <Card>
                             <Card.Header>
-                                <Card.Title as="h5">Portfolios by BitDoodle: {portInfo.name}, ${portInfo.currentValue}</Card.Title>
+                                <Card.Title as="h5">Portfolios by BitDoodle: {portInfo.name}, $ {Math.round(portInfo.currentValue)}</Card.Title>
                             </Card.Header>
                             <Card.Body>
                                 <Table responsive>
