@@ -51,9 +51,9 @@ const NBAMoney = () => {
                                                 <th scope="row"><a href={url}>{port.portId}</a></th>
                                                 <td>{port.date}</td>
                                                 <td>{port.name}</td>
-                                                <td>{port.current_value}</td>
-                                                <td></td>
-                                                <td><a href="#">Go to Stats</a></td>
+                                                <td>${Math.round(port.current_value)}</td>
+                                                <td>{port.return_to_date}</td>
+                                                <td><a href={url}>Go to Stats</a></td>
                                             </tr>;
                                         })}
                                     </tbody>
