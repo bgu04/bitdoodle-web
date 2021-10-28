@@ -58,12 +58,6 @@ const chartData = {
                         },
                         {
                             id: 'finance-portfolio',
-                            title: 'Portfolio BI-1',
-                            type: 'item',
-                            url: '/finance/portfolio/BI-1'
-                        },
-                        {
-                            id: 'finance-portfolio',
                             title: 'Portfolio BI-2',
                             type: 'item',
                             url: '/finance/portfolio/BI-2'
