@@ -163,6 +163,17 @@ const Dashboard = () => {
                             <ul className="list-unstyled task-list">
                                 <li>
                                     <i className="feather icon-check f-w-600 task-icon bg-c-green"/>
+                                    <p className="m-b-5">Tue, 26 Oct</p>
+                                    <h6 className="text-muted">
+                                        New season started and I have decided not to continue with NBA game prediction work with statistical modeling. 
+                                        This effort, no matter how hard I tried with all different models, turned out to be not rewarding. 
+                                        Basically, NBA game prediction, has been very random and the best result I have achieved so far has been ELO score with accuracy rate 66% for games in 2020. 
+                                        I have published all game predictions together with game detail data of 2020-2021 seasons.
+                                        I believe NBA games are for gamblers not worth scientific attention. I am investing my time into finance data analysis from now on. 
+                                    </h6>
+                                </li>
+                                <li>
+                                    <i className="feather icon-check f-w-600 task-icon bg-c-green"/>
                                     <p className="m-b-5">Tue, 24 Aug</p>
                                     <h6 className="text-muted">
                                         New season NBA schedule posted: <a href="https://www.nba.com/schedule">https://www.nba.com</a>
