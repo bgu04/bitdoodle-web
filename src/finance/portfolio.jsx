@@ -55,6 +55,7 @@ const Portfolio = () => {
             var sInfo = {};
             sInfo['name'] = sData.name;
             sInfo['currentValue'] = sData.current_value;
+            sInfo['desc'] = sData.desc;
             setPortInfo(sInfo);
             setStocks(sData.portfolio);
 
@@ -88,6 +89,7 @@ const Portfolio = () => {
                             <Card.Title as="h5">{ (portInfo.name) }, base value $ 100 </Card.Title>
                             </Card.Header>
                             <Card.Body>
+                                <p>{ portInfo.desc }</p>
                                 <Chart type='line' height='250' options={chartOptions} series={chartSeries} />
                             </Card.Body>
                         </Card>
@@ -102,7 +104,6 @@ const Portfolio = () => {
                                     <thead>
                                         <tr>
                                             <th>Stock</th>
-                                            <th>Established date</th>
                                             <th>Shares</th>
                                             <th>prevClose</th>
                                             <th>volume</th>
@@ -123,7 +124,6 @@ const Portfolio = () => {
 
                                             return <tr key={stock._id}>
                                                 <th scope="row">{stock.symbol}</th>
-                                                <td>{stock.date}</td>
                                                 <td>{shares}</td>
                                                 <td>{stock.prevClose}</td>
                                                 <td>{volume}</td>
