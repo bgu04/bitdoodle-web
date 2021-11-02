@@ -9,7 +9,7 @@ const Games = () => {
 
     const options = {
         method: 'GET',
-        url: 'http://bitdoodle.net/api/games',
+        url: 'https://bitdoodle.net/api/games',
         headers: {
         }
     };

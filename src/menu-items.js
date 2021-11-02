@@ -7,6 +7,33 @@ const chartData = {
             icon: 'icon-monitor',
             children: [
                 {
+                    id: 'finance',
+                    title: 'Finance',
+                    type: 'collapse',
+                    icon: 'feather icon-target',
+                    children: [
+                        {
+                            id: 'finance-portfolios',
+                            title: 'Portfolios by BitDoodle',
+                            type: 'item',
+                            url: '/finance/portfolios'
+                        },
+                        {
+                            id: 'finance-portfolio-1',
+                            title: 'Portfolio BI-2',
+                            type: 'item',
+                            url: '/finance/portfolio/BI-2'
+                        },
+                        ,
+                        {
+                            id: 'finance-portfolio-2',
+                            title: 'Portfolio BI-3',
+                            type: 'item',
+                            url: '/finance/portfolio/BI-3'
+                        }
+                    ]
+                },
+                {
                     id: 'nba',
                     title: 'NBA Data',
                     type: 'collapse',
@@ -41,33 +68,6 @@ const chartData = {
                             title: 'NBA Salary Ranking',
                             type: 'item',
                             url: '/nba/money'
-                        }
-                    ]
-                },
-                {
-                    id: 'finance',
-                    title: 'Finance',
-                    type: 'collapse',
-                    icon: 'feather icon-target',
-                    children: [
-                        {
-                            id: 'finance-portfolios',
-                            title: 'Portfolios by BitDoodle',
-                            type: 'item',
-                            url: '/finance/portfolios'
-                        },
-                        {
-                            id: 'finance-portfolio-1',
-                            title: 'Portfolio BI-2',
-                            type: 'item',
-                            url: '/finance/portfolio/BI-2'
-                        },
-                        ,
-                        {
-                            id: 'finance-portfolio-2',
-                            title: 'Portfolio BI-3',
-                            type: 'item',
-                            url: '/finance/portfolio/BI-3'
                         }
                     ]
                 }

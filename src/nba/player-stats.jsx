@@ -13,7 +13,7 @@ const Cards = () => {
 
     const options = {
         method: 'GET',
-        url: 'http://bitdoodle.net/api/stats/' + playerId,
+        url: 'https://bitdoodle.net/api/stats/' + playerId,
         headers: {
         }
     };

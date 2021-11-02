@@ -10,7 +10,7 @@ const NBAMoney = () => {
 
     const options = {
         method: 'GET',
-        url: 'http://bitdoodle.net/fapi/ports',
+        url: 'https://bitdoodle.net/fapi/ports',
         headers: {
         }
     };

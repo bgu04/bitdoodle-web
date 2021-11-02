@@ -42,7 +42,7 @@ const Portfolio = () => {
 
     const options = {
         method: 'GET',
-        url: 'http://bitdoodle.net/fapi/port/' + portId,
+        url: 'https://bitdoodle.net/fapi/port/' + portId,
         headers: {
         }
     };
