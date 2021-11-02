@@ -8,7 +8,7 @@ const NBASalaries = () => {
     const [players, setPlayers] = useState([]);
     const [year, setYear] = useState('2021');
 
-    const url_base = 'http://bitdoodle.net/api/salaries/';
+    const url_base = 'https://bitdoodle.net/api/salaries/';
 
     let items = [];
     for (let number = 1; number >= 10; number--) {

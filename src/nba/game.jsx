@@ -17,21 +17,21 @@ const Cards = () => {
 
     const options_game = {
         method: 'GET',
-        url: 'http://bitdoodle.net/api/games/' + gameId,
+        url: 'https://bitdoodle.net/api/games/' + gameId,
         headers: {
         }
     };
 
     const options_team_stats = {
         method: 'GET',
-        url: 'http://bitdoodle.net/api/game-stats/' + gameId,
+        url: 'https://bitdoodle.net/api/game-stats/' + gameId,
         headers: {
         }
     };
 
     const options_player_stats = {
         method: 'GET',
-        url: 'http://bitdoodle.net/api/player-stats/' + gameId,
+        url: 'https://bitdoodle.net/api/player-stats/' + gameId,
         headers: {
         }
     };

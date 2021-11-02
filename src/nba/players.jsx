@@ -8,7 +8,7 @@ const NBATeams = () => {
     const [players, setPlayers] = useState([]);
     const [year, setYear] = useState('2021');
 
-    const url_base = 'http://bitdoodle.net/api/players/summary/';
+    const url_base = 'https://bitdoodle.net/api/players/summary/';
 
     async function handleClick(yearStr) {
         setYear(yearStr);
